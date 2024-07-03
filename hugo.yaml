@@ -1,0 +1,22 @@
+baseURL: https://louisdutton.github.io
+languageCode: en-gb
+title: Louis Dutton
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    subtitle: "Full-stack engineer"
+    imageUrl: "https://avatars.githubusercontent.com/u/165147040?v=4"
+    imageTitle: "Louis Dutton profile picture"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: Archive
+        url: "/archive"
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/louisdutton"
+    - name: "gitlab"
+      url: "https://gitlab.com/louisdutton"
