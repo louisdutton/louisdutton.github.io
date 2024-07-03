@@ -4,6 +4,8 @@ title: Louis Dutton
 theme: PaperMod
 
 params:
+  defaultTheme: auto
+
   profileMode:
     enabled: true
     subtitle: Full-stack engineer
