@@ -8,16 +8,18 @@
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
+      scripts = {
+        dev = pkgs.writeShellScriptBin "dev" ''
+          hugo server -D --buildDrafts
+        '';
+      };
     in
     {
       devShell.${system} = pkgs.mkShell {
-        buildInputs = [ pkgs.hugo ];
-
-        # shellHook = # bash
-        #   ''
-        #     # bundle install 
-        #     export BUNDLE_FORCE_RUBY_PLATFORM=true;
-        #   '';
+        buildInputs = [
+          pkgs.hugo
+          scripts.dev
+        ];
       };
     };
 }
