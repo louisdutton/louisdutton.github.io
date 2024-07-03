@@ -6,19 +6,29 @@ theme: PaperMod
 params:
   profileMode:
     enabled: true
-    subtitle: "Full-stack engineer"
-    imageUrl: "https://avatars.githubusercontent.com/u/165147040?v=4"
-    imageTitle: "Louis Dutton profile picture"
+    subtitle: Full-stack engineer
+    imageUrl: https://avatars.githubusercontent.com/u/165147040?v=4
+    imageTitle: Louis Dutton profile picture
     imageWidth: 200
     imageHeight: 200
-    buttons:
-      - name: Archive
-        url: "/archive"
-      - name: Posts
-        url: "/posts"
+    # buttons:
+    #   - name: Posts
+    #     url: /posts
 
   socialIcons:
-    - name: "github"
-      url: "https://github.com/louisdutton"
-    - name: "gitlab"
-      url: "https://gitlab.com/louisdutton"
+    - name: github
+      url: https://github.com/louisdutton
+    - name: gitlab
+      url: https://gitlab.com/louisdutton
+
+  showToc: true
+  showReadingTime: true
+  showCodeCopyButtons: true
+  showPostNavLinks: true
+  showBreadCrumbs: true
+  showShareButtons: true
+
+  editPost:
+    url: https://github.com/louisdutton/louisdutton.github.io/content
+    text: Suggest Changes
+    appendFilePath: true
