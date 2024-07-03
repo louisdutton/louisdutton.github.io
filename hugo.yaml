@@ -1,4 +1,4 @@
-baseURL: https://louisdutton.github.io
+baseURL: https://louisdutton.dev
 languageCode: en-gb
 title: Louis Dutton
 theme: PaperMod
@@ -17,7 +17,7 @@ params:
       - name: Posts
         url: "/posts"
 
-  socialIcons: # optional
+  socialIcons:
     - name: "github"
       url: "https://github.com/louisdutton"
     - name: "gitlab"
