@@ -14,6 +14,8 @@ params:
     buttons:
       - name: Archive
         url: "/archive"
+      - name: Posts
+        url: "/posts"
 
   socialIcons: # optional
     - name: "github"
