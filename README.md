@@ -7,7 +7,9 @@ A nix wrapper for Hugo
 ```nix
 {
   description = "My website";
+
   inputs.hugix.url = "louisdutton/hugix";
+
   outputs =
     { hugix, ... }:
     {
