@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1720128930,
-        "narHash": "sha256-JEM0ovx4x9izE2I8nX3/qjinbNQ904T+BwlRhsaBeWw=",
+        "lastModified": 1720186139,
+        "narHash": "sha256-TO21V/MrDrUeqJv7k7mTlu26vJjKLczMgWnhYhr9o5w=",
         "owner": "louisdutton",
         "repo": "hugix",
-        "rev": "cd345e966e544a54414c81040e5b05d692055c44",
+        "rev": "61715be5e2313518299ca3e82c4c205a3776ae9d",
         "type": "github"
       },
       "original": {
@@ -33,25 +33,26 @@
         "type": "indirect"
       }
     },
-    "nixpkgs_2": {
-      "locked": {
-        "lastModified": 1720031269,
-        "narHash": "sha256-rwz8NJZV+387rnWpTYcXaRNvzUSnnF9aHONoJIYmiUQ=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "9f4128e00b0ae8ec65918efeba59db998750ead6",
-        "type": "github"
-      },
-      "original": {
-        "id": "nixpkgs",
-        "ref": "nixos-unstable",
-        "type": "indirect"
-      }
-    },
     "root": {
       "inputs": {
         "hugix": "hugix",
-        "nixpkgs": "nixpkgs_2"
+        "theme": "theme"
+      }
+    },
+    "theme": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1719526686,
+        "narHash": "sha256-Gacmm7l1Lbc4lw9bsJ1NBas+h+zBd1EeA8hioI8yfR0=",
+        "owner": "nunocoracao",
+        "repo": "blowfish",
+        "rev": "c6c2689195eb47241c613a1e4b8d0828ebf3c6e4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nunocoracao",
+        "repo": "blowfish",
+        "type": "github"
       }
     }
   },
