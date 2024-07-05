@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1720186139,
-        "narHash": "sha256-TO21V/MrDrUeqJv7k7mTlu26vJjKLczMgWnhYhr9o5w=",
+        "lastModified": 1720197942,
+        "narHash": "sha256-p3soIRu4iXd8kDQgY3ERYGZHhWOkodZPov0AcmOI1Bg=",
         "owner": "louisdutton",
         "repo": "hugix",
-        "rev": "61715be5e2313518299ca3e82c4c205a3776ae9d",
+        "rev": "42374d80e066723ccbcda87b9ebff0fc7d62271b",
         "type": "github"
       },
       "original": {
