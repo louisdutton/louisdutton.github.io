@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "mkdir -p build && resumed render -t jsonresume-theme-actual -o build/index.html",
+    "validate": "resumed validate"
+  },
+  "dependencies": {
+    "jsonresume-theme-actual": "^0.2.2",
+    "resumed": "^3.0.1"
+  }
+}
