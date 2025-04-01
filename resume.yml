@@ -1,0 +1,64 @@
+$schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+
+basics:
+  name: Louis Dutton
+  label: Software Engineer
+  email: louis@dutton.digital
+  url: https://louisdutton.dev
+  summary: Software engineer based in Cornwall, UK.
+  location:
+    city: Truro
+    countryCode: EN
+    region: Cornwall
+  profiles:
+    - network: GitHub
+      username: louisdutton
+      url: https://github.com/louisdutton
+
+work:
+  - name: Travel Chapter
+    location: Bideford, CA
+    description: One of the UK's leading holiday letting agencies
+    position: Developer
+    url: https://travelchapter.com
+    startDate: '2023'
+    endDate: '2024'
+    summary: Addressed techinical debt and increased
+    highlights:
+      - Consolidated 50 whitelabel websites into a single deployment
+      - Built a custom browser extension that minimised QA effort
+      - Introduced component-driven development via a shared UI library/storybook
+      - Introduced accessibility standards
+
+education:
+  - institution: Goldsmiths, University of London
+    url: https://www.gold.ac.uk/
+    area: Music
+    studyType: Bachelor
+    startDate: '2018'
+    endDate: '2021'
+
+awards:
+  - title: Alexandar Ivashkin Scholarship
+    awarder: Goldsmiths, University of London
+    summary: Awarded for musical performance ability
+  - title: Joe Brown Memorial Award
+    awarder: Goldsmiths, University of London
+    summary: Awarded for outstanding research in computational music
+
+languages:
+  - language: English
+    fluency: Native
+  - language: French
+    fluency: Conversational
+
+interests:
+  - name: FOSS
+  - name: Accessibility
+  - name: Privacy
+  - name: Opera
+
+meta:
+  canonical: https://raw.githubusercontent.com/louisdutton/ld2.sh/master/resume.json
+  version: v1.0.0
+  lastModified: '2017-12-24T15:53:00'

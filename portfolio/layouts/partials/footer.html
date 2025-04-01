@@ -1,0 +1,6 @@
+{{ $showFooter := default true .Site.Params.showFooter }}
+{{ if $showFooter }}
+    {{ with .Site.Params.footerContent }}
+    <p>{{ . | markdownify }}</p>
+    {{ end }}
+{{ end }}
