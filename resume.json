@@ -3,9 +3,9 @@
   "basics": {
     "name": "Louis Dutton",
     "label": "Software Engineer",
-    "email": "louis@ld2.sh",
-    "url": "https://ld2.sh",
-    "summary": "Multidisciplinary software engineer based in Cornwall, UK. A FOSS evangelist.",
+    "email": "louis@dutton.digital",
+    "url": "https://louisdutton.dev",
+    "summary": "Software engineer based in Cornwall, UK.",
     "location": {
       "city": "Truro",
       "countryCode": "EN",
@@ -16,11 +16,6 @@
         "network": "GitHub",
         "username": "louisdutton",
         "url": "https://github.com/louisdutton"
-      },
-      {
-        "network": "GitLab",
-        "username": "louisdutton",
-        "url": "https://gitlab.com/louisdutton"
       }
     ]
   },
