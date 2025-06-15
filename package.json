@@ -4,7 +4,7 @@
     "validate": "resumed validate"
   },
   "dependencies": {
-    "jsonresume-theme-actual": "^0.2.2",
-    "resumed": "^3.0.1"
+    "jsonresume-theme-even": "latest",
+    "resumed": "latest"
   }
 }
