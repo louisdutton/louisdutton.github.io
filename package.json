@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "mkdir -p build && resumed render -t jsonresume-theme-actual -o build/index.html",
+    "build": "mkdir -p build && resumed render -t jsonresume-theme-even -o build/index.html",
     "validate": "resumed validate"
   },
   "dependencies": {
