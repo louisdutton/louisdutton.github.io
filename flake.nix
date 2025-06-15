@@ -14,7 +14,6 @@
       system: with (import nixpkgs { inherit system; }); {
         devShells.default = mkShell {
           packages = [
-            hugo
             bun
           ];
         };
