@@ -1,10 +1,11 @@
 {
-  "scripts": {
-    "build": "mkdir -p build && resumed render -t jsonresume-theme-even -o build/index.html",
-    "validate": "resumed validate"
-  },
-  "dependencies": {
-    "jsonresume-theme-even": "latest",
-    "resumed": "latest"
-  }
+	"scripts": {
+		"build": "mkdir -p build && resumed render -t jsonresume-theme-onepage-plus -o build/index.html",
+		"dev": "bunx concurrently 'fd json --full-path | entr bun run build' 'bun ./build/index.html'",
+		"validate": "resumed validate"
+	},
+	"dependencies": {
+		"jsonresume-theme-onepage-plus": "latest",
+		"resumed": "latest"
+	}
 }

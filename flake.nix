@@ -4,19 +4,24 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs =
-    {
-      nixpkgs,
-      flake-utils,
-      ...
-    }:
+  outputs = {
+    nixpkgs,
+    flake-utils,
+    ...
+  }:
     flake-utils.lib.eachDefaultSystem (
-      system: with (import nixpkgs { inherit system; }); {
-        devShells.default = mkShell {
-          packages = [
-            bun
-          ];
-        };
-      }
+      system: let
+        pkgs = import nixpkgs {inherit system;};
+      in
+        with pkgs; {
+          devShells.default = mkShell {
+            packages = [
+              bun
+              biome
+              vscode-langservers-extracted
+              entr
+            ];
+          };
+        }
     );
 }
