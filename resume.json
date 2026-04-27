@@ -5,19 +5,11 @@
 		"label": "Software engineer",
 		"email": "louis@dutton.digital",
 		"url": "https://louisdutton.dev",
-		"summary": "Multidisciplinary sofware engineer based in Cornwall, UK.",
 		"location": {
 			"city": "Truro",
 			"countryCode": "EN",
 			"region": "Cornwall"
-		},
-		"profiles": [
-			{
-				"network": "GitHub",
-				"username": "louisdutton",
-				"url": "https://github.com/louisdutton"
-			}
-		]
+		}
 	},
 	"work": [
 		{
@@ -61,11 +53,21 @@
 			"position": "Senior developer",
 			"url": "https://givematch.com",
 			"startDate": "2024",
-			"endDate": "2025",
+			"endDate": "2026",
 			"highlights": [
 				"Reduced CI pipeline duration from an hour to five minutes",
 				"Introduced reproducible dev environments with Nix",
 				"Reduced cycle-time by an order of magnitude"
+			]
+		},
+		{
+			"name": "XGX.AI",
+			"position": "Senior engineer",
+			"url": "https://xgx.ai",
+			"startDate": "2026",
+			"highlights": [
+				"Set up development environments to improve team consistency and onboarding",
+				"Normalised architecture across projects to improve pipeline efficiency"
 			]
 		}
 	],
